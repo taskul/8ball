@@ -1,0 +1,41 @@
+.EightBall_ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    word-wrap: normal;
+    background: radial-gradient(#e66465, #111114);
+    border: 50px solid black;
+    cursor: pointer;
+}
+
+.EightBall_glare {
+    position: absolute;
+    margin-top: -150px;
+    margin-right: 150px;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(0, 0, 0, 0) 30%);
+}
+.EightBall_text {
+    color:white;
+    font-weight: bold;
+}
+
+.EightBall_alignCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EightBall_reset {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
